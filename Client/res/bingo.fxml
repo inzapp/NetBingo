@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="449.0" prefWidth="715.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Bingo">
+   <children>
+      <ImageView fx:id="b00" fitHeight="70.0" fitWidth="70.0" layoutX="22.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b01" fitHeight="70.0" fitWidth="70.0" layoutX="105.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b02" fitHeight="70.0" fitWidth="70.0" layoutX="187.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b03" fitHeight="70.0" fitWidth="70.0" layoutX="269.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b04" fitHeight="70.0" fitWidth="70.0" layoutX="349.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b10" fitHeight="70.0" fitWidth="70.0" layoutX="21.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b11" fitHeight="70.0" fitWidth="70.0" layoutX="104.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b12" fitHeight="70.0" fitWidth="70.0" layoutX="186.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b13" fitHeight="70.0" fitWidth="70.0" layoutX="268.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b14" fitHeight="70.0" fitWidth="70.0" layoutX="349.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b20" fitHeight="70.0" fitWidth="70.0" layoutX="22.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b21" fitHeight="70.0" fitWidth="70.0" layoutX="105.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b22" fitHeight="70.0" fitWidth="70.0" layoutX="187.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b23" fitHeight="70.0" fitWidth="70.0" layoutX="269.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b24" fitHeight="70.0" fitWidth="70.0" layoutX="349.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b30" fitHeight="70.0" fitWidth="70.0" layoutX="22.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b31" fitHeight="70.0" fitWidth="70.0" layoutX="105.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b32" fitHeight="70.0" fitWidth="70.0" layoutX="187.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b33" fitHeight="70.0" fitWidth="70.0" layoutX="269.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b34" fitHeight="70.0" fitWidth="70.0" layoutX="350.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b40" fitHeight="70.0" fitWidth="70.0" layoutX="23.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b41" fitHeight="70.0" fitWidth="70.0" layoutX="106.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b42" fitHeight="70.0" fitWidth="70.0" layoutX="188.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b43" fitHeight="70.0" fitWidth="70.0" layoutX="270.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b44" fitHeight="70.0" fitWidth="70.0" layoutX="351.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true" />
+      <TextArea fx:id="chatLog" layoutX="442.0" layoutY="28.0" prefHeight="314.0" prefWidth="245.0" />
+      <TextField fx:id="inputChat" layoutX="442.0" layoutY="358.0" prefHeight="24.0" prefWidth="199.0" />
+      <Button fx:id="sendBt" layoutX="647.0" layoutY="359.0" mnemonicParsing="false" text="전송" />
+      <Button fx:id="readyStartBt" layoutX="442.0" layoutY="398.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="115.0" text="준비/시작" />
+      <Button fx:id="exitBt" layoutX="566.0" layoutY="398.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="122.0" text="나가기" />
+   </children>
+</AnchorPane>
